@@ -1,5 +1,5 @@
 # hub-template
-#Frequently used Terminal settings:
+## Frequently used Terminal settings:
 ```bash
 # git
 git clone
