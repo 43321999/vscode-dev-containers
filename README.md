@@ -6,7 +6,7 @@ git clone
 ## .gitignore
 echo -e "node_modules\n" > .gitignore
 # package.json
-npm init
+npm init -y
 # nodemon
 npm install --save-dev nodemon
 ## nodemon.json
@@ -25,7 +25,7 @@ echo -e "node_modules\n" > .eslintignore
 echo -e "node_modules\n" > .dockerignore
 # .vscode workspace settings
 mkdir .vscode
-echo -e '{\n\t"files.exclude": {\n\t\t"node_modules":true,\n\t\t".vscode":true,\n\t\t"package-lock.json":true,\n\t\t".eslintrc.json":true,\n\t\t".gitignore":true,\n\t\t"eslintignore":true,\n\t}\n}' > ./.vscode/settings.json
+echo -e '{\n\t"files.exclude": {\n\t\t"node_modules":true,\n\t\t".vscode":true,\n\t\t"package-lock.json":true,\n\t\t".eslintrc.json":true,\n\t\t".gitignore":true,\n\t\t".eslintignore":true,\n\t\t"nodemon.json":true\n\t}\n}\n' > ./.vscode/settings.json
 # workspace
 ## folders
 mkdir browser node test
