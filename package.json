@@ -1,0 +1,25 @@
+{
+  "name": "hub-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js --config .nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noshimorimoshi/hub-template.git"
+  },
+	"type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noshimorimoshi/hub-template/issues"
+  },
+  "homepage": "https://github.com/noshimorimoshi/hub-template#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
