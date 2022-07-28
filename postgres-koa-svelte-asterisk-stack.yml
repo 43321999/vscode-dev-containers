@@ -1,15 +1,24 @@
 version: '3.1'
 services:
   db:
-    image: postgres
-    restart: always
-    volumes:
-      - /var/lib/postgresql/data:/var/lib/postgresql/data
-    environment:
-      # POSTGRES_PASSWORD: postgres
-      # POSTGRES_USER: postgres
-      # POSTGRES_DB: postgres
+    # image: postgres
+    # restart: always
+    # volumes:
+    #   - /var/lib/postgresql/data:/var/lib/postgresql/data
+    # environment:
+    #   # POSTGRES_PASSWORD: postgres
+    #   # POSTGRES_USER: postgres
+    #   # POSTGRES_DB: postgres
   back:
+    image: noshimorimoshi/my-koa-app
+    ports:
+      - 80:3000
+    deploy:
+      restart_policy:
+        condition: on-failure
+    placement:
+        constraints:
+          - node.labels.ip == global
   front:
   pbx:
     # ```sh
