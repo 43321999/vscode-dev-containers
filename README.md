@@ -1,1 +1,1 @@
-# hub-template
+# Hyper-V guest services - Alpine Linux
