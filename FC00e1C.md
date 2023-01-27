@@ -1,8 +1,8 @@
-# FCe1E
+# FC00e1C
 ```sh
 docker pull ubuntu:lunar-20221216
-docker tag ubuntu:lunar-20221216 127.0.0.1:1027/fdef0000000000000000000000000000/ubuntu:lunar-20221216
-docker push 127.0.0.1:1027/fdef0000000000000000000000000000/ubuntu:lunar-20221216
+docker tag ubuntu:lunar-20221216 127.0.0.1:1027/FC00e1C/ubuntu:lunar-20221216
+docker push 127.0.0.1:1027/FC00e1C/ubuntu:lunar-20221216
 ```
 delete <!-- 
 https://github.com/distribution/distribution/issues/2719?ysclid=ldco3wf5zr47870285
